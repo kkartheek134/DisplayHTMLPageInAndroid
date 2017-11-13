@@ -1,0 +1,33 @@
+<html>
+<head>
+    <script language="JavaScript">
+function loginPage()
+    {
+    var name= document.getElementById("unmae").value;
+    var pass = document.getElementById("pass").value;
+        interface.displayMsg(name,pass);
+    }
+    </script>
+
+</head>
+<body bgcolor="#006063" text="white">
+<marquee behavior="alternate" scrollamount="5">This is sample html page</marquee>
+
+<center>
+    <table border="1">
+        <tr>
+            <td colspan="2" align="center">Login Form</td>
+        </tr>
+        <tr>
+            <td>UserName:</td><td><input type="text" id="unmae"/></td>
+        </tr>
+        <tr>
+            <td>Password:</td><td><input type="password" id="pass"/></td>
+        </tr>
+        <tr><td colspan="2"><input type="button" value="Login" onclick="loginPage()" align="center"/></td> </tr>
+    </table>
+
+</center>
+
+</body>
+</html>
